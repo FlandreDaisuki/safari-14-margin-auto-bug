@@ -1,8 +1,10 @@
 # Safari 14 margin auto bug
 
-![iOS-safari-14](iOS-safari-14.jpg)
-
-![MacOS-safari-14](MacOS-safari-14.jpg)
+|environment|gallery|
+|:-:|:-:|
+|iOS 14 Safari|![iOS-safari-14](iOS-safari-14.jpg)|
+|iOS 13 Safari|![iOS-safari-13](iOS-safari-13.jpg)|
+|MacOS Safari 14|![MacOS-safari-14](MacOS-safari-14.jpg)|
 
 ## Solution
 
