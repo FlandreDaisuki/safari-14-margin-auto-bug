@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>safari 14 margin auto bug</title>
+  <style>
+    html, body {
+      margin: 0;
+    }
+    main {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+
+      display: grid;
+      grid-template-rows: auto auto 1fr;
+    }
+    h1, p {
+      padding-left: 1rem;
+    }
+    section {
+      display: grid;
+      background-color: aliceblue;
+    }
+    button {
+      margin-left: 1rem;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>safari 14 margin auto bug</h1>
+    <p>Your user agent is: <script>document.write(navigator.userAgent)</script></p>
+    <section>
+      <button>I am a button</button>
+    </section>
+  </main>
+</body>
+</html>
